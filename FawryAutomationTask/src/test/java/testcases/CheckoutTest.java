@@ -18,7 +18,6 @@ public class CheckoutTest extends BaseTest {
         CheckoutPage checkoutPage = new CheckoutPage(driver);
         checkoutPage
                 .goToCheckoutPage()
-                .clickOnChangeAddress()
                 .clickOnAddNewAddress()
                 .enterFullName(ConfigUtils.getInstanceofConfigUtils().fullName())
                 .enterPhoneNumber(ConfigUtils.getInstanceofConfigUtils().phoneNumber())
